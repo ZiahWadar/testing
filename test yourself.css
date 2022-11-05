@@ -1,0 +1,102 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.big-container{
+    display: flex;
+}
+/* side nav content */
+
+.side-nav-container{
+    background-color: rgba(42, 52, 190, 0.938);
+    color: white;
+    width: 14rem;
+    height: 50em;
+    margin-right: 5em;
+
+}
+
+
+.logo-container{
+    background-color: rgb(15, 17, 46);
+    height: 7em;
+}
+
+.q-logo{
+    margin-left: 10px;
+    font-size: 2em;
+    color: rgb(36, 146, 209);
+}
+.dot-logo{
+    font-size: 3em;
+    color: aqua;
+}
+
+.side-bar-margin{
+    list-style: none;
+    background-color: rgb(36, 146, 209);
+    margin-bottom: 8px;
+    height: 50px;
+    
+
+}
+.side-bar-write{
+    position: relative;
+    left: 8px;
+    margin-right: 20px;
+    top: 10px;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+  /* end of side nav styling */
+
+
+ /* body content styling */
+.body-container{
+    border: 1px solid rgb(240, 240, 243);
+    box-shadow: 0px 3px rgb(212, 212, 221);
+    width: 150vh;
+    height: 37em;
+    margin-top: 4em;
+    margin-right: 4em;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.drop-down{ 
+    height: 3em;
+    border-radius: 8px;
+    width: 15em;
+} 
+button{
+    width: 100px;
+    height: 35px;
+    background-color: rgba(42, 52, 190, 0.796);
+    color: white;
+    border-radius: 4px;
+    border: none;
+
+
+}
+.button-center{
+    text-align: center;
+    margin-top: 20px;
+}
+.select-flex{
+    display: flex;
+    margin: 50px 0px;
+    margin-left: 10%;
+
+}
+.drop-down-div{
+    width: 40%;
+}
